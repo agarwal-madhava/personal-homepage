@@ -1,0 +1,105 @@
+:root {
+    --main-background-color: rgb(30, 30, 30);
+
+    --large-text-color: skyblue;
+
+    --large-text-font: sans-serif;
+
+    --regular-text-color: white;
+
+    --regular-text-font: sans-serif;
+
+    --label-text-color: white;
+
+    --details-text-color: rgb(191, 237, 255);
+
+    --details-text-font: sans-serif;
+
+    --link-text-color: antiquewhite;
+
+    --link-text-font: monospace;
+
+    --button-color: skyblue;
+
+    --button-font-color: rgb(30, 30, 30);
+
+    --button-font: monospace;
+
+    --accent-color: aliceblue;
+}
+
+body{
+    background-color: var(--main-background-color);
+}
+
+h1{
+    color: var(--large-text-color);
+    font-family: var(--large-text-font);
+    text-decoration: var(--accent-color) underline;
+    font-size: 2.5em;
+    transition: ease 1s;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+h1:hover{
+    transform: translateY(-3px);
+    text-shadow: 2px 2px 60px var(--accent-color);
+}
+
+h2{
+    color: var(--regular-text-color);
+    font-family: var(--regular-text-font);
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size: 2em;
+}
+
+p{
+    color: var(--regular-text-color);
+    font-family: var(--regular-text-font);
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size: 1.5em;
+}
+
+ul {
+    list-style-type: square;
+    color: var(--regular-text-color);
+    font-family: var(--regular-text-font);
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size: 1.3em;
+}
+
+details{
+    color: var(--details-text-color);
+    font-family: var(--details-text-font);
+}
+
+a{
+    color: var(--link-text-color);
+    font-family: var(--link-text-font);
+    font-size: 1.5em;
+    text-decoration: var(--accent-color) underline;
+}
+
+button{
+    color: var(--button-font-color);
+    font-family: var(--button-font);
+    background-color: var(--button-color);
+    font-size: 1.5em;
+    padding: 15px;
+    transition: ease 0.3s;
+    border-radius: 15px
+}
+
+button:hover {
+    transform: translateY(-3px);
+    box-shadow: 2px 2px 300px var(--accent-color);
+}
+
+button:active {
+    transform: scale(0.9) scaleX(0.9);
+    background-color: var(--accent-color)
+}
