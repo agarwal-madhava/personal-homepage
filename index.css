@@ -17,13 +17,13 @@
 
     --link-text-color: antiquewhite;
 
-    --link-text-font: monospace;
+    --link-text-font: sans-serif;
 
     --button-color: skyblue;
 
     --button-font-color: rgb(30, 30, 30);
 
-    --button-font: monospace;
+    --button-font: sans-serif;
 
     --accent-color: aliceblue;
 }
@@ -80,7 +80,6 @@ details{
 a{
     color: var(--link-text-color);
     font-family: var(--link-text-font);
-    font-size: 1.5em;
     text-decoration: var(--accent-color) underline;
 }
 
@@ -110,6 +109,10 @@ button:active {
 
 .has-right-margin{
     margin-right: 100px;
+}
+
+.push-to-middle{
+    margin-left: 30%;
 }
 
 .unfinished{
