@@ -103,3 +103,23 @@ button:active {
     transform: scale(0.9) scaleX(0.9);
     background-color: var(--accent-color)
 }
+
+.has-left-margin{
+    margin-left: 100px;
+}
+
+.has-right-margin{
+    margin-right: 100px;
+}
+
+.unfinished{
+    color: yellow;
+    font-size: 5em;
+    font-family: monospace;
+    transition: ease 0.5s;
+}
+
+.unfinished:hover{
+    color: red;
+    font-size: 6em;
+}
