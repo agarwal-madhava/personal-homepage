@@ -111,18 +111,14 @@ button:active {
     margin-right: 100px;
 }
 
-.push-to-middle{
-    margin-left: 30%;
-}
-
 .unfinished{
     color: yellow;
-    font-size: 5em;
+    font-size: 4em;
     font-family: monospace;
-    transition: ease 0.5s;
+    transition: ease 1s;
 }
 
 .unfinished:hover{
     color: red;
-    font-size: 6em;
+    font-size: 5em;
 }
