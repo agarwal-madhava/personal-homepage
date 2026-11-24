@@ -127,3 +127,9 @@ button:active {
     color: red;
     font-size: 5em;
 }
+
+.note{
+    text-align: center;
+    color: grey;
+    text-shadow: 5px 5px 10px;
+}
